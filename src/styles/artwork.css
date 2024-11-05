@@ -1,0 +1,33 @@
+@layer components {
+    .artwork-grid {
+      @apply grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+    }
+  
+    .artwork-card {
+      @apply group relative overflow-hidden rounded-lg bg-background shadow-md transition-shadow hover:shadow-xl;
+    }
+  
+    .artwork-image {
+      @apply aspect-square overflow-hidden;
+    }
+  
+    .artwork-image img {
+      @apply h-full w-full object-cover transition-transform duration-300 group-hover:scale-105;
+    }
+  
+    .artwork-details {
+      @apply p-4;
+    }
+  
+    .artwork-title {
+      @apply text-lg font-semibold leading-tight;
+    }
+  
+    .artwork-price {
+      @apply mt-2 text-xl font-bold;
+    }
+  
+    .artwork-category {
+      @apply absolute top-2 right-2 z-10;
+    }
+}

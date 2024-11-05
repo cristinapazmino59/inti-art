@@ -1,0 +1,26 @@
+@layer components {
+    .container {
+      @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+    }
+  
+    .main-header {
+      @apply sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60;
+    }
+  
+    .main-nav {
+      @apply hidden md:flex items-center space-x-4;
+    }
+  
+    .mobile-nav {
+      @apply fixed inset-0 top-16 z-50 grid h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 
+      pb-32 shadow-md animate-in slide-in-from-bottom-80 md:hidden;
+    }
+  
+    .footer {
+      @apply border-t bg-muted/50;
+    }
+  
+    .footer-content {
+      @apply container py-10 md:py-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4;
+    }
+}

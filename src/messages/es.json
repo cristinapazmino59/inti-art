@@ -1,0 +1,46 @@
+{
+    "common": {
+      "loading": "Cargando...",
+      "error": "Ha ocurrido un error",
+      "notFound": "Página no encontrada",
+      "back": "Volver",
+      "retry": "Reintentar"
+    },
+    "nav": {
+      "home": "Inicio",
+      "gallery": "Galería",
+      "about": "Sobre mí",
+      "contact": "Contacto",
+      "cart": "Carrito"
+    },
+    "home": {
+      "hero": {
+        "title": "Arte que inspira",
+        "subtitle": "Descubre obras únicas que cuentan historias",
+        "cta": "Ver galería"
+      },
+      "featured": {
+        "title": "Obras destacadas",
+        "viewAll": "Ver todas las obras"
+      }
+    },
+    "gallery": {
+      "title": "Galería de Arte",
+      "filters": {
+        "all": "Todas",
+        "realism": "Realismo",
+        "abstract": "Abstracto",
+        "portrait": "Retratos",
+        "watercolor": "Acuarelas",
+        "petPortrait": "Retratos de mascotas"
+      },
+      "search": "Buscar obras..."
+    },
+    "artwork": {
+      "dimensions": "Dimensiones",
+      "technique": "Técnica",
+      "production": "Tiempo de producción",
+      "addToCart": "Agregar al carrito",
+      "price": "Precio"
+    }
+}

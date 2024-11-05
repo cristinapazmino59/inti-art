@@ -1,0 +1,37 @@
+@layer components {
+    .checkout-container {
+      @apply max-w-2xl mx-auto py-8;
+    }
+  
+    .checkout-steps {
+      @apply mb-8;
+    }
+  
+    .step-item {
+      @apply flex items-center;
+    }
+  
+    .step-number {
+      @apply w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium;
+    }
+  
+    .step-number.active {
+      @apply bg-primary text-primary-foreground;
+    }
+  
+    .step-number.completed {
+      @apply bg-green-500 text-white;
+    }
+  
+    .step-line {
+      @apply flex-1 h-0.5 mx-2;
+    }
+  
+    .checkout-form {
+      @apply space-y-6;
+    }
+  
+    .form-section {
+      @apply space-y-4 rounded-lg border p-4;
+    }
+}

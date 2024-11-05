@@ -1,0 +1,20 @@
+@layer utilities {
+    .scrollbar-hide {
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  
+    .text-balance {
+      text-wrap: balance;
+    }
+  
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+}
